@@ -25,10 +25,13 @@ def enable_ansi():
 
 
 ART = """\
-{color}       /\\_/\\{reset}
-{color}      ( {eyes} ){tail}{reset}
-{color}       > {mouth} <{reset}
-{color}      /     \\{reset}
+{color}        /\\_/\\{reset}
+{color}       ( {eyes} ){reset}
+{color}    ~~  > {mouth} <  ~~{reset}
+{color}      /       \\{reset}
+{color}      |  ___  |{tail}{reset}
+{color}       \\_____/{reset}
+{color}        ^   ^{reset}
 """
 
 TAILS = ["  ~", "  \\", "  |", "  /", "  -"]
